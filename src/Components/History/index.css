@@ -1,0 +1,46 @@
+.history {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 15px;
+}
+.history__top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.history__btn {
+    border: none;
+    background-color: transparent;
+    color:gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+.history__btn:hover {
+    cursor: pointer;
+}
+.history__details {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(196, 93, 174, 0.205);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+} 
+.history__name {
+    text-transform:uppercase;
+    color:rgb(65, 8, 51);
+    margin-bottom: 10px;
+}
+.history__card {
+
+    font-weight: 500;
+    color:rgb(71, 16, 60);
+}
+.history__amount {
+    text-transform:uppercase;
+    color:rgb(196,93,174);
+}

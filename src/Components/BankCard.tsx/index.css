@@ -1,0 +1,59 @@
+.card {
+  margin-top: 50px;
+  color: rgb(255, 255, 255);
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.card__inner {
+  width: 400px;
+  height: 200px;
+  background: rgb(30, 191, 193);
+  background: linear-gradient(
+    121deg,
+    rgba(30, 191, 193, 1) 50%,
+    rgba(255, 255, 255, 0.6138830532212884) 100%
+  );
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.card__balance {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.card__money-text {
+    font-size: 14px;
+}
+.card__money {
+    padding-top: 10px;
+    font-size: 24px;
+}
+
+
+.card__number {
+    grid-area: number;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.card__bank-name {
+    grid-area: bank;
+    padding-top: 7px;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+}
+.card__owner {
+    grid-area: name;
+    padding-top: 7px;
+}
+.card__data {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: grid;
+    grid-template-areas: 
+    "number number "
+    "name bank";
+    column-gap: 100px;
+}

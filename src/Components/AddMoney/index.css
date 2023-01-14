@@ -1,0 +1,26 @@
+.amount {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin-top: 30px;
+}
+.amount__value {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(30, 191, 193, 1);
+    border-radius: 20px;
+    color: rgb(253, 253, 253);
+    font-weight: 700;
+    letter-spacing: 2px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    column-gap: 10px;
+}
+
+.amount__value:hover {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}

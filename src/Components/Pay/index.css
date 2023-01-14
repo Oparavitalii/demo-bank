@@ -1,0 +1,33 @@
+.pay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.pay input {
+    width: 280px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(124, 255, 185);
+    color: rgb(63, 63, 63);
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.pay button {
+    width: 200px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid rgb(124, 255, 185);;
+    margin-bottom: 10px;
+    background-color:rgb(124, 255, 185);;
+    color:aliceblue;
+}
+.pay .pay__amount {
+    width: 200px;
+}
+.pay__error {
+    color: red;
+}
