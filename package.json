@@ -1,5 +1,6 @@
 {
   "name": "test-tsreact",
+  "homepage" : "http://opara-v.space/bankapp",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

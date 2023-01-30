@@ -1,0 +1,27 @@
+.piggy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.piggy__money {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(41, 37, 37);
+}
+.piggy__money span {
+    color:rgb(235, 91, 75);
+    font-weight: bold;
+}
+
+.piggy__return {
+    background-color: rgb(247, 244, 244);
+    color:rgb(235, 91, 75);
+    outline: none;
+    border: 2px solid rgb(235, 91, 75);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}

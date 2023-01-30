@@ -15,7 +15,7 @@ export default function BankCart() {
           </div>
           <div className="card__data">
             <div className="card__number">2309 6678 3441 2889</div>
-            <div className="card__owner">John Lennon Theiry</div>
+            <div className="card__owner">Premium Card</div>
             <div className="card__bank-name">Bank Blue</div>
           </div>
         </div>

@@ -25,6 +25,9 @@
     background-color:rgb(124, 255, 185);;
     color:aliceblue;
 }
+button:hover {
+    cursor: pointer;
+}
 .pay .pay__amount {
     width: 200px;
 }

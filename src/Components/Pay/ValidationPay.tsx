@@ -19,7 +19,7 @@ function checkAmount(e:React.ChangeEvent<any>,maxAmount:number) {
     e.target.value = maxAmount
   }
   if (e.target.value <= 0) {
-    e.target.value = 1
+    e.target.value = null
   }
 }
 

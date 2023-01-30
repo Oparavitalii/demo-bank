@@ -1,19 +1,30 @@
-import React from "react";
+import React,{useState} from "react";
 
 import { useSelector } from "react-redux";
 
 import "./index.css"
 
 export default function History() {
-  const user = useSelector((state: any) => state.users);
+  type IShowAll = {
+    isShow: boolean,
+    textButton : string[]
+
+  }
+  let user = useSelector((state: any) => state.users);
+  const [showAll,setShowAll] = useState<IShowAll>({
+    isShow : false,
+    textButton: ["show all","show latest"]
+  })
+  const coutOfElements = showAll.isShow ? null : -3;
+
   return (
     <section className="history">
       <div className="history__top">
-        <h2 className="history__header">Reacent transaction</h2>
-        <button className="history__btn">see all</button>
+        <h2 className="histoy__header">Reacent transaction</h2>
+        <button className="history__btn" onClick={() => setShowAll({...showAll,isShow: !showAll.isShow })}>{showAll.isShow ? showAll.textButton[1] : showAll.textButton[0]}</button>
       </div>
 
-      {user.map((item: any) => {
+      {user.slice(coutOfElements).reverse().map((item: any) => {
         return (
           <div className="history__details">
             <div className="history__data">
